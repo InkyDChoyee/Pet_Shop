@@ -10,4 +10,4 @@ function test(){
     a.setAttributeNode(href);
 }
 
-test()
+test();
