@@ -181,6 +181,30 @@ table tr span {
     margin-right: 20px;
 }
 
+.btnbox {
+    text-align: center;
+}
+
+button {
+    text-align: center;
+    padding: 10px;
+    margin: 5px 20px;
+    font-size: 1.2rem;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    box-shadow: 0px 5px 5px #ccc;
+}
+
+.join_btn {
+    background: #ffa;
+}
+
+.reset_btn {
+    background: #ffd;
+}
+
+
+
 /* #bottom */
 #bottom {
     width: 80%;
