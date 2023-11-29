@@ -123,8 +123,10 @@ a {
     padding: 10px;
     margin-left: 10px;
     font-size: 1.2rem;
-    padding: 30px 30px;
+    padding: 35px 35px;
+    margin-left: 30px;
     border: none;
+    border-radius: 10px;
     background: #ffa;
     box-shadow: 0px 2px 5px #ee1;
 }
@@ -136,14 +138,14 @@ a {
 }
 
 .td_text {
-    border: 1px solid #999;
+    border: 1px solid #aa1;
     border-right: none;
     padding: 10px;
     font-size: 0.8rem;
     color: #aaa;
 }
 .td_input {
-    border: 1px solid #999;
+    border: 1px solid #aa1;
     border-left: none;
 }
 
