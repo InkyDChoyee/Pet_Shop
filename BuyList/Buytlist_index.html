@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Main</title>
-    <link rel="stylesheet" href="template_style.css">
+    <link rel="stylesheet" href="buylist_style.css">
 
 </head>
 <body>
@@ -56,20 +56,52 @@
 
 
         <div id="mid">
-            <h3>Title</h3>
-            <div class="mid-top">
-                
-            </div>
-            
+            <h3>구매내역</h3>
+            <section id="buyend">
+               <table>
+                    <thead>
+                        <tr>
+                            <th class="col"><p>상품정보</p></th>
+                            <th class="col"><p>주문일자</p></th>
+                            <th class="col"><p>주문번호</p></th>
+                            <th class="col"><p>주문금액</p></th> 
+                        </tr>
+                    </thead>  
 
-            <div class="mid-mid">
-            
-            </div>
+                    <tbody>
+                        <tr>
+                            <td><p><img src="img/sss.png"></p> <p>${dd.product}</p></td>
+                            <td><p>${dd.orderdate}</p></td>
+                            <td><p>${dd.ordernum}</p></td>
+                            <td><p>${dd.price}</p></td>  
+                        </tr>
+                        <tr>
+                            <td><p><img src="img/sss.png"></p> <p>${dd.product}</p></td>
+                            <td><p>${dd.orderdate}</p></td>
+                            <td><p>${dd.ordernum}</p></td>
+                            <td><p>${dd.price}</p></td>  
+                        </tr>
+                        <tr>
+                            <td><p><img src="img/sss.png"></p> <p>${dd.product}</p></td>
+                            <td><p>${dd.orderdate}</p></td>
+                            <td><p>${dd.ordernum}</p></td>
+                            <td><p>${dd.price}</p></td>  
+                        </tr>
+                    </tbody>
+                </table> 
+                <div id="page">
+                    <a href=""><button class="arrow"><</button></a>
+                    <a href=""><button>1</button></a>
+                    <a href=""><button>2</button></a>
+                    <a href=""><button>3</button></a>
+                    <a href=""><button>4</button></a>
+                    <a href=""><button class="arrow">></button></a>
+                </div>
 
-
-            <div class="mid-btm">
-
-            </div>
+                <a href="/">
+                   <button id="toList" >목록으로</button>
+                </a> 
+            </section>    
         </div>
 
 

@@ -25,6 +25,7 @@ a:hover {
     cursor: pointer;
 }
 
+
 /* #top */
 #top {
     width: 100%;
@@ -99,14 +100,11 @@ a:hover {
 
 
 
-
-
 /* #mid */
 #mid {
     background-color: #fff;
     margin: 30px;
     margin-bottom: 0;
-    padding-bottom: 50px;
 }
 
 #mid h3 {
@@ -115,81 +113,72 @@ a:hover {
     background-color: #ffa;    
 }
 
-#login {
+#buyend {
+    text-align: center;
+    width: 80%;
     margin-top: 50px;
-    padding: 50px 100px;
-    width: 100%;
-}
+} 
 
-.login_tb {
+#buyend table{
+    width: 100%; 
+    margin:20px auto; 
     border-collapse: collapse;
-    padding: 40px;
+    border-top: 2px solid #ccc;
+    border-bottom: 2px solid #ccc; 
 }
 
-.login_btn {
-    padding: 10px;
-    margin-left: 10px;
-    font-size: 1.2rem;
-    padding: 35px 35px;
-    margin-left: 30px;
-    border: none;
-    border-radius: 10px;
-    background: #ffa;
-    box-shadow: 0px 2px 5px #ee1;
-}
-
-
-.td_text {
-    border: 1px solid #aa1;
-    border-right: none;
-    padding: 10px;
-    font-size: 0.8rem;
-    color: #aaa;
+#buyend table th {
+    border-bottom: 2px solid #ccc; 
+    margin: 15px; 
+    padding: 15px;
+    text-align: center;
     background: #ffe;
 }
-.td_input {
-    border: 1px solid #aa1;
-    border-left: none;
+ 
+#buyend table th, td, tr{ 
+    border-top: 1px dotted #ccc;
+    border-bottom: 1px dotted #ccc;
+    text-align: center;
 }
 
-.login_input {
-    width: 200px;
-    height: 40px;
+#buyend table  td, tr{ padding: 20px; }
+
+#toList{
+    margin: 20px auto 50px;
+    padding: 10px 5px; 
+    background-color: #ffa; 
+    box-shadow: 0 2px 5px #aa1;  
+    border-radius: 5px;
     border: none;
 }
 
-#find_account {
-    margin: 20px 0px 70px 300px;
-    text-align: center;
-    font-size: 0.8rem;
+#page button {
+    width: 30px;
+    height: 30px;
+    margin: 40px 5px;
+    border: 1px solid #aa1;
+    border-radius: 50%;
+    background: #ffe;
 }
 
-#find_account p a {
-    color: #aaa;
+#page .arrow {
+    width: 25px;
+    height: 25px;
 }
 
-.join_account {
-    width: 500px;
-    border-top: 1px solid #eca;
-    padding: 40px 50px;
-    margin: 10px auto 300px;
-    text-align: center;
+#buyend tr:nth-child(1) {
+    width: 10%;
+}
+#buyend tr:nth-child(2) {
+    width: 10%;
+}
+#buyend tr:nth-child(3) {
+    width: 10%;
+}
+#buyend tr:nth-child(4) {
+    width: 5%;
 }
 
-.join_account p {
-    float: left;
-}
-
-.join_account a {
-    float: right;
-}
-
-.join_account_btn {
-    padding: 10px 30px;
-    box-shadow: 0 -5px 10px #fe2;
-    border: 1px solid #fe1;
-    background: #ffa;
-}
 
 
 
@@ -230,6 +219,7 @@ a:hover {
     padding : 10px;
     margin: 30px 0px;
 }
+
 
 /* footer */
 #footer {
